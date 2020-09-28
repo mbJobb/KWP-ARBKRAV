@@ -1,0 +1,88 @@
+.top_panel {grid-area:  top_panel;}
+.midtpanel1 {grid-area: midtpanel1;}
+.midtpanel2 {grid-area: midtpanel2;}
+.bundpanel1 {grid-area: bundpanel1;}
+.bundpanel2 {grid-area: bundpanel2;}
+.Footer {grid-area: Footer;}
+
+.grid-container{
+    display: grid;
+    grid-template-areas:
+        'top_panel top_panel top_panel top_panel'
+        'midtpanel1 midtpanel1 midtpanel2 midtpanel2'
+        'bundpanel1 bundpanel1 bundpanel1 bundpanel2'
+        'Footer Footer Footer Footer';
+    grid-gap: 10px;
+    background-color: black;
+    padding: 10px;
+}
+.grid-container > div{
+    text-align: center;
+    color: aliceblue;
+    font-family: "Times New Roman", Times, serif;
+    padding: 10px;
+    background-color: dimgrey;
+}
+.top_panel {
+    /*boks*/
+    position: relative;
+    
+    width: inherit;
+    height: 500px;
+   
+    
+    /*tekst*/
+    
+    
+    font-size: 400%;
+}
+.HeroImgTxt {
+    
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+.midtpanel1 {
+    position: inherit;
+    width: auto;
+    height: 300px;
+    
+}
+.midtpanel2 {
+    position: inherit;
+    width: auto;
+    height: 300px;
+}
+.bundpanel1, bundpanel2 {
+    position: relative;
+    width: inherit;
+    height: 300px;
+}
+.Footer {
+    width: inherit;
+}
+/*jonas css*/
+.gif {
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 75%;
+    left: 35%;
+}
+.text {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 90%;
+    color: aliceblue;
+    font-family: sans-serif; 
+}
+.logo:hover {
+        
+}
