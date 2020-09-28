@@ -1,9 +1,20 @@
+/*
+    **********************
+    Grid area definisjoner
+    **********************
+*/
 .top_panel {grid-area:  top_panel;}
 .midtpanel1 {grid-area: midtpanel1;}
 .midtpanel2 {grid-area: midtpanel2;}
 .bundpanel1 {grid-area: bundpanel1;}
 .bundpanel2 {grid-area: bundpanel2;}
 .Footer {grid-area: Footer;}
+
+/*
+    **************
+    Grid container
+    **************
+*/
 
 .grid-container{
     display: grid;
@@ -16,6 +27,7 @@
     background-color: black;
     padding: 10px;
 }
+
 .grid-container > div{
     text-align: center;
     color: aliceblue;
@@ -23,6 +35,13 @@
     padding: 10px;
     background-color: dimgrey;
 }
+
+/* 
+    *************
+    Panel på main
+    *************
+*/
+
 .top_panel {
     /*boks*/
     position: relative;
@@ -36,6 +55,7 @@
     
     font-size: 400%;
 }
+/* er usikker på hva vi skal si her*/
 .HeroImgTxt {
     
     position: absolute;
@@ -60,6 +80,11 @@
     width: inherit;
     height: 300px;
 }
+/*
+    ******
+    Footer
+    ******
+*/
 .Footer {
     width: inherit;
 }
@@ -81,7 +106,7 @@
     text-align: center;
     top: 90%;
     color: aliceblue;
-    font-family: sans-serif; 
+    font-family: serif; 
 }
 .logo:hover {
         
