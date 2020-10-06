@@ -1,64 +1,76 @@
 .wrapper {
-    position: relative;
-    max-width: 1920px;
+  position: relative;
+  max-width: 1920px;
 }
 
-.top-container{
-    width:100%;
-    height:668px;
-    background: url(batmobile2.jpg);
-    background-size:cover; 
-    filter:brightness(100%);
-    text-align: center;
-    object-fit: cover;
-    
-    
+.top-container {
+  width: 100%;
+  height: 668px;
+  background: url(batmobile2.jpg);
+  background-size: cover;
+  filter: brightness(100%);
+  text-align: center;
+  object-fit: cover;
 }
 
-.header-text{
-    text-align: center;
-    padding:50px; 
-    font-size:5em;
-   
+.header-text {
+  text-align: center;
+  padding: 50px;
+  font-size: 5em;
 }
 
-.header{
-    padding:10px 0px;
-    background-color:#1A5276;
-    color:floralwhite;
-    text-align: center;
-    position:sticky;
-    width:100%; 
-    font-size:20px;
-    
+.header {
+  padding: 10px 0px;
+  background-color: #1a5276;
+  color: floralwhite;
+  text-align: center;
+  position: sticky;
+  width: 100%;
+  font-size: 20px;
 }
 
-
-.content{
-    
-    margin:70px 150px 150px 150px;
-    color:black;
-    
+.content {
+  margin: 70px 150px 150px 150px;
+  color: black;
 }
 
-body{
-    background-color:whitesmoke;
-
-
+body {
+  background-color: whitesmoke;
 }
 
-img{
-    margin:30px; 
+img {
+  margin: 30px;
 }
-img:hover{
-    display: block;
-    margin: auto auto auto auto;
-    max-height: 1080px;
-    max-width: 1920px;
-    position: relative;
-    transform: scale(3);
-    
+img:hover {
+  display: block;
+  margin: auto auto auto auto;
+  max-height: 1080px;
+  max-width: 1920px;
+  position: relative;
+  transform: scale(3);
 }
-h3{
-    text-align: center;
+h3 {
+  text-align: center;
+}
+
+/*jonas css*/
+.gif {
+  position: relative;
+  width: 100%;
+}
+
+.logo {
+  position: absolute;
+  top: 75%;
+  left: 35%;
+  width: 30%;
+}
+
+.logo:hover {
+  transform: rotate(360deg);
+  transition-duration: 2s;
+}
+
+.index {
+  max-width: 1920px;
 }
