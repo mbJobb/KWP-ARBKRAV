@@ -38,12 +38,15 @@ body {
   background-color: whitesmoke;
 }
 
-img {
-  margin: 30px;
+.images {
+  margin: 10px 300px;
 }
-img:hover {
+.images >img{
+    margin: 5px 20px;
+}
+.images > img:hover {
   display: block;
-  margin: auto auto auto auto;
+  margin: auto;
   max-height: 1080px;
   max-width: 1920px;
   position: relative;
