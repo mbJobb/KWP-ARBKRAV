@@ -52,6 +52,14 @@ body {
     position: relative;
     transform: scale(3);
 }
+.wide{
+    width: 600px;
+    height: 400px;
+}
+.tall{
+    width: 300px;
+    height: 400px;
+}
 h3 {
     text-align: center;
 }
@@ -64,15 +72,15 @@ h3 {
 
 .logo {
     position: absolute;
-    top: 75%;
-    left: 35%;
+    right: 0%;    
     width: 30%;
+    transform: scale(0.8)
 }
-
 .logo:hover {
     transform: rotate(360deg);
     transition-duration: 2s;
 }
+
 
 .index {
     max-width: 1920px;
